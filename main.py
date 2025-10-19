@@ -1,3 +1,4 @@
+
 # 从键盘输入一行字符
 text = input("请输入一行字符：")
 
@@ -19,7 +20,7 @@ for char in text:
         others += 1
 
 # 输出统计结果
-print(f"英文字符: {letters}")
-print(f"数字: {digits}")
-print(f"空格: {spaces}")
-print(f"其他字符: {others}")
+print("英文字符: %d" % letters)
+print("数字: %d" % digits)
+print("空格: %d" % spaces)
+print("其他字符: %d" % others)
